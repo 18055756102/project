@@ -84,3 +84,38 @@ $ git reset --hard 提交版本时输出的哈希值前六位
 # 查看帮助 
 $ git --help
 ```
+
+### 远程仓库操作 
+``` bash
+# 设置远程仓库源地址
+$ git remote add origin https://github.com/18055756102/project.git
+
+# 将本地仓库中的master分支  推送到远程仓库
+$ git push -u origin master
+
+# 第一次获取项目  使用克隆
+$ git clone https://github.com/18055756102/project.git
+
+#从远程仓库拉取项目 
+$ git pull origin master
+
+# 恢复文件 
+$ git checkout filename 
+
+```
+
+### 分支操作
+``` bash
+# 新建分支 
+$ git branch +(分支名)
+
+# 查看分支
+$ git branch
+
+# 切换分支
+$ git checkout 分支名 
+
+# 合并分支
+$ git merge  分支名
+
+```
